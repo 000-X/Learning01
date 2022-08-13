@@ -11,6 +11,8 @@ public class test1 {
         System.out.println("你好，git");
         System.out.println("你好，分支main");
         new test1().branch();
-        Branch branch = new Branch();
+        Branch branch = new Branch("张三", 60);
+        log.debug("{}", branch.getName());
+        log.debug("{}", branch.getAge());
     }
 }
